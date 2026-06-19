@@ -1,4 +1,5 @@
 #zadanie1
+print("===zadanie 1===")
 distance = 300
 speed = 100
 rashod_topliva = 8 #8 litros za kazhdyi 100 km
@@ -28,24 +29,25 @@ exchange = 75
 result = rubli//exchange
 ostatok = rubli%exchange
 
-print ("obichniy obmennik")
-print (f"poluchilos v celyh dollarah:{result}")
-print (f"sdacha v rublyah:{ostatok}")
+print("obichniy obmennik")
+print(f"poluchilos v celyh dollarah:{result}")
+print(f"sdacha v rublyah:{ostatok}")
 
 result = round (rubli/exchange,2)
-print ("obmennik s centami")
-print (f"poluchilos v dollarah {result}")
+print("obmennik s centami")
+print(f"poluchilos v dollarah {result}")
 
-#zadanie 3 
+#zadanie 3
+print("===zadanie 3===") 
 konfety = 20
 deti = 6
 
 na_rebenka = konfety // deti
-print (na_rebenka)
+print(na_rebenka)
 #rezultat = 3
 
 ostatok = konfety % deti
-print (ostatok)
+print(ostatok)
 #resultat = 2
 
 dokupit = deti - ostatok
@@ -53,17 +55,19 @@ print (dokupit)
 #resultat = 4
 
 #zadanie 4
+print("===zadanie 4===")
 number = 16
 kvadrat = number ** 2
-print (round(kvadrat, 2))
+print(round(kvadrat, 2))
 
 kub = number ** 3
-print (round (kub))
+print(round (kub))
 
 koren = number ** 0.5
-print (round(koren))
+print(round(koren))
 
 #zadanie 5
+print("===zadanie 5===")
 schet = 50
 procent = 10
 
@@ -71,7 +75,7 @@ chaevye = schet * (procent / 100)
 print (chaevye)
 
 itog = schet + chaevye
-print (round(itog,2))
+print(round(itog,2))
 
 na_troih = itog / 3
-print (round(na_troih, 2))
+print(round(na_troih, 2))
