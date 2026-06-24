@@ -6,32 +6,32 @@ Why do we use it?\n
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 """
 # Методы строк
-#.strip()
-#.lower()
-#.upper()
-#.replace("","")
+# .strip()
+# .lower()
+# .upper()
+# .replace("", "")
 
 print(pervyi)
 print(".strip")
-#print(pervyi.strip()) #удаляет ненужные пробелы ВНАЧАЛЕ и в КОНЦЕ предложения, а также удаляет перенос строки 
-#\n - перенести строку
+# print(pervyi.strip())  # удаляет ненужные пробелы ВНАЧАЛЕ и в КОНЦЕ предложения, а также удаляет перенос строки
+# \n - перенести строку
 
 print(".lower")
-print(pervyi.lower()) #меняет ВСЕ на маленькую букву
+print(pervyi.lower())  # меняет ВСЕ на маленькую букву
 
 print(".upper")
-print(pervyi.upper()) #меняет ВСЕ на большую букву
+print(pervyi.upper())  # меняет ВСЕ на большую букву
 
 sentence = "Lola is walking in the park"
 print(sentence)
 
 print("====.replace===")
-sentence=sentence.replace("Lola","Umka") #создаем новую пременную (не заменяет текст)
+sentence = sentence.replace("Lola", "Umka")  # создаем новую переменную (не заменяет текст)
 print(sentence)
 
 print("===.replace===")
-sentence=sentence.replace("park","home")
+sentence = sentence.replace("park", "home")
 print(sentence)
 
-#заменили исходный текст = перезаписали ИСХОДНУЮ переменную (sentence)
+# заменили исходный текст = перезаписали ИСХОДНУЮ переменную (sentence)
 
