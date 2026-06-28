@@ -23,13 +23,14 @@ print(type(ostatok))
 
 stepen = x ** y
 print("stepen",stepen)
-print(type(stepen))
 
 print (z)
+print("hello")
 z="privet" #поменяла значение переменной z с float на str
 print(z)
 
-z = 34.5658445
+z = 34.5658345
 y = 21.6656440
 print(round(z,1)) #столько знаков после , округление до 2 знаков после запятой
 print(round(y,1)) #округление до 2 знаков после запятой   
+print("hello world")
