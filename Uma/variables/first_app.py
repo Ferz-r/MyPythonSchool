@@ -47,3 +47,7 @@ a = 2
 b = 3
 print(f"Сумма:{a+b}")
 
+text = "hello"
+print(text)
+text = "uma"
+print(text)
