@@ -1,10 +1,12 @@
 print("===Задание чистое имя===")
 
 input_name = "\t    ГаДжиМурад     \n"   
-
-print(input_name.strip())
-print(input_name.lower())
-print(input_name.upper())
+input_name = input_name.strip()
+print(input_name)
+input_name = input_name.strip().lower()
+print(input_name)
+input_name = input_name.strip().lower().upper()
+print(input_name)
 
 
 print("===задание цензура===")
@@ -31,7 +33,7 @@ email= email.lower()
 print(3,email)
 email=email.replace("mail.ru","yandex.ru")
 print(4,email)
-print(email)
+
 
 
 
@@ -55,6 +57,8 @@ result = minute // 60
 ostatok = minute % 60
 print(f"poluchilos celih chasov:{result}")
 print(f"ctolko minut stay:{ostatok}")
+
+
 
 
 
