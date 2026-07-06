@@ -24,7 +24,7 @@ incorrect_name = "Света" is not text
 print(incorrect_name)
 
 
-# .find() - где находится (индекс первого символа)
+# .find() - ищет индекс символа
 finded_index = text.find("у")
 print(finded_index)
 bukva = text[finded_index]
@@ -32,7 +32,7 @@ print(bukva)
 bukva_plus_one = text[finded_index + 1]
 print(bukva_plus_one)
 
-finded_name = text.find("Ума")
+finded_name = text.find("Ума") #индекс первого символа
 print(finded_name)
 
 
