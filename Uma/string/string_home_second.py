@@ -76,11 +76,14 @@ date_result = f"{day}.{mounth}.{year}"
 print(date_result)
 
 
+
+
 print("===Задание'Жёсткая цензура'===")
 
 review = "Этот ресторан — полное говно, а не еда. Повторю: говно!"
 review = review[:1]+ review[1:].lower().replace("говно","***")
 print(review)
+
 
 
 
@@ -99,5 +102,64 @@ print(phone_raw)
 
 
 print("===Задание'Подсчёт гласных'===")
+
+text = "Мама мыла раму"
+text_count = text.count("а")
+print(f"Буква 'а' встречается: {text}")
+
+
+
+
+
+
+print("===='Счастливый билет'===")
+
+ticket = "481722"
+
+first_p= ticket[0:3]
+print(first_p)
+
+second_p = ticket[3:6]
+print(second_p)
+
+# first_p = int(first_p)
+# second_p = int(second_p)
+# sum = first_p + second_p 
+# print(sum)
+
+
+first_sum = sum(int(digit) for digit in first_p)
+second_sum = sum(int(digit) for digit in second_p)
+
+# 3. Сравниваем суммы
+if first_sum == second_sum:
+    print(f"Билет {ticket} — счастливый 🍀")
+else:
+    print(f"Билет {ticket} — несчастливый 😢")
+
+# 'счастливый 🍀' if first_sum == second_sum else 'несчастливый 😢'
+
+
+
+print("===='Анонимайзер документов'===")
+
+document = "Пациент Иван Иванов, паспорт 4500 123456, диагноз: COVID-19"
+start = document.index("паспорт ") + len("паспорт ") 
+end = document.index(",", start)
+ 
+passport_data = document[start : end]
+print(passport_data)
+new_doc = document.replace(passport_data, "**** ******" ).replace("COVID-19", "ОРВИ")
+
+print(new_doc)
+
+
+
+
+print("===='Капитализация имени'===")
+
+name = "аЛександР"
+first_index = name[0].upper() + name[1:].lower()
+print(first_index)
 
 
