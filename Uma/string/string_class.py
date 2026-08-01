@@ -43,3 +43,5 @@ sentence = sentence.lower()
 print(3, sentence)
 sentence = sentence.replace("москва", "Нью-Йорк")
 print(4, sentence)
+
+
