@@ -7,3 +7,10 @@ a = int(a)
 b = int(b)
 summ = a+b
 print(summ)
+
+
+
+print("=====Задание 2 — «Рефакторинг»====")
+
+sentance = input("")
+
