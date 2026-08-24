@@ -1,8 +1,6 @@
-x = 27
-y = 3
+x = float(input("Введите число x:\n"))
+y = float(input("Введите число y:\n"))
+
 division = x/y
 print(f"Деление:{division}")
 print(type(division))
-
-
-division = input("Введите целые числа и разделите их: \n")
