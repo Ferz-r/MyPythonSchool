@@ -6,3 +6,5 @@ print(f"Сумма: {multiplicatoin}")
 
 # print("umnozhenie", multiplicatoin)
 print(type(multiplicatoin))
+
+multiplicatoin = input("Введите числа и умножте их: \n")
